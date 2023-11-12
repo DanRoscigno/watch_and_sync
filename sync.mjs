@@ -7,7 +7,7 @@ const { copySync, removeSync } = pkg
 const sourceEnglish = "./docs/en/"
 const sourceChinese = "./docs/zh/"
 const destinationEnglish = "./docusaurus/docs/"
-const destinationChinese = "./docusaurus/i18n/"
+const destinationChinese = "./docusaurus/i18n/docusaurus-plugin-content-docs/current/"
 
 // Check if --watch flag is present in the command line arguments
 const should_watch = process.argv.includes("--watch")
