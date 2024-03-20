@@ -5,7 +5,7 @@ const destinationEnglish = "./docusaurus/docs/"
 
 const watcher = watch(sourceEnglish, {
     persistent: true,
-    usePolling: true,
+    usePolling: false,
 })
 
 watcher
